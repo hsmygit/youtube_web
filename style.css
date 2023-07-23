@@ -32,9 +32,6 @@ body {
 ul {
     list-style: none;
 }
-li {
-    list-style: none;
-}
 
 button,
 button:focus {
@@ -90,7 +87,11 @@ header {
 
 }
 /* Video Info*/
-.info {
+.infoAndUpNext > .info {
+    padding: var(--padding);
+}
+
+.channel > .metadata > .info {
     padding: var(--padding);
 }
 
@@ -186,6 +187,9 @@ header {
 }
 
 /* UP Next*/
+.upNext {
+    padding: 0 var(--padding);
+}
 .upNext > .title {/*바로 밑에 따라 오는 자식만 적용*/
     font-size: var(--font-medium);
     color: var(--grey-dark-color);
