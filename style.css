@@ -153,12 +153,8 @@ header {
     font-size: var(--font-button);
 }
 
-.info .actions button i.active {
+.info > .actions button i.active {
     color: var(--blue-color);
-}
-
-.upNext .item .moreBtn i.active {
-    color: inherit; /* Reset color to inherit from parent */
 }
 
 /*channel */
