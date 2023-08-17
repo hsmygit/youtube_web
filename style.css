@@ -157,6 +157,10 @@ header {
     color: var(--blue-color);
 }
 
+.upNext .item .moreBtn i.active {
+    color: inherit; /* Reset color to inherit from parent */
+}
+
 /*channel */
 .info .channel {
     display: flex;
